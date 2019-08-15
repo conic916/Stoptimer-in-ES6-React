@@ -2,32 +2,41 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding-top: 250px;
     background-color: rgb(40, 40, 49);
-
 }
 
 nav {
-    height: auto;
-    display: flex;
-    justify-content: center;
-
+    background: rgb(209, 208, 208); 
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 4%;
 }
 
-.button {
-    margin: 10px;
+.controls {
+    padding-top: 80px;
+    font-size: 28px;
+}
+#start {
+    background: rgb(224, 159, 159);
+    color: rgb(12, 11, 11);
+    margin: 90px;
+    border-radius: 8%;
 }
 
-.stopwatch {
-    display: flex;
-    justify-content: center;
-    font-size: 70px;
-    padding: 10px;
-    margin-top: 50px;
+#stop {
+    width: 150px;
+    height: 80px;
+    background: rgb(224, 159, 159);
+    color: rgb(17, 15, 15);
+    border-radius: 8%;
 }
 
-.timer {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+a {
+    text-decoration: none;
+}
+
+#stopWatchComp {
+    color: red;
 }

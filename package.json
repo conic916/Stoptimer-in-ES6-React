@@ -1,7 +1,7 @@
 {
-  "name": "stoper-js6",
+  "name": "js6",
   "version": "1.0.0",
-  "description": "stoper js",
+  "description": "stoper-js",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,12 +10,8 @@
   "author": "katarzynadasilva",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "babel-preset-latest": "^6.24.1"
   },
   "dependencies": {
