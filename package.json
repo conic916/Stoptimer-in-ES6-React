@@ -5,11 +5,12 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel script.js --watch --out-file script-compiled.js"
+    "start" :"babel script.js --watch --out-file script-compiled.js"
   },
   "author": "katarzynadasilva",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1"
