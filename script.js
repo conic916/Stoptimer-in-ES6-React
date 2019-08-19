@@ -68,15 +68,14 @@ class StopWatchComponent extends React.Component {
 			running: false
 		});
 		clearInterval(this.watch);
-    }
-    
+	}
 	render() {
 		return (
 			<div>
 				<button onClick={this.start}>Start</button>
 				<button onClick={this.stop}>Stop</button>
 				<p>
-                {this.format({
+					{this.format({
 						minutes: this.state.minutes,
 						seconds: this.state.seconds,
 						miliseconds: this.state.miliseconds
@@ -87,4 +86,4 @@ class StopWatchComponent extends React.Component {
 	}
 }
 
-ReactDOM.render(<StopWatchComponent />,document.getElementById("stopwatchcomp"));
+ReactDOM.render(<StopWatchComponent />, document.getElementById("stopWatchComp"));
